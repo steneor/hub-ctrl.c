@@ -69,6 +69,19 @@ to allow power switching.
   - Belkin: F5U701
   - Linksys: USB2HUB4
   - Raspberry Pi 2: the usb port numbering posted bellow, if the port value is 2, all the 4 usb ports will be controled
+  +----------------------------------------+
+  |  +------------+     +----+   +----+    |
+  |  |            |     |    |   |    |    |
+  |  |            |     | p2 |   | p4 |    |
+  |  |            |     |    |   |    |    |
+  |  |  ETH0(p1)  |     +----+   +----+    |
+  |  |            |                        |
+  |  |            |     +----+   +----+    |
+  |  |            |     |    |   |    |    |
+  |  |            |     | p3 |   | p5 |    |
+  |  |            |     |    |   |    |    |
+  |  +------------+     +----+   +----+    |
+  +----------------------------------------+
 
 Original Copyright
 ==================
